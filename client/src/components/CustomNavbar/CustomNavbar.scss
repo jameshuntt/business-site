@@ -53,3 +53,20 @@ img {
 //.navbar-toggle {
 //    z-index:1;
 //}
+
+@media (max-width: 739px) {
+    .burger-menu-icon {
+        display: flex;
+        z-index: 5;
+    }
+    .navbar-links {
+        display: none;
+    }
+    .navbar-button {
+        display: none;
+    }
+    .spacer1 {
+        display: flex;
+        width: 62vh;
+    }
+}
