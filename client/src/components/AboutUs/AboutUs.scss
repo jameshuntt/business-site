@@ -1,0 +1,37 @@
+.about-main-container {
+    padding-top: 9vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-sub-container {
+    height: 91vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-sub-container-div-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-sub-container-div-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-sub-container-div-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.founders {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-founders-spacer {
+    height: 91vh;
+    width: 5vw;
+}
