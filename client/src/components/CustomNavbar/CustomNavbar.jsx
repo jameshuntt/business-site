@@ -7,19 +7,20 @@ export default class JamesNavbar extends Component {
     render() {
         return (
             <div className="navbar-container">
-              <div className="navbar-buttons">
-                <Link to="/"><Button variant="outline-light" >Home</Button></Link>
-                <Link to="/About"><Button variant="outline-light" >About</Button></Link>
-              </div>
-              <div className="navbar-left-spacer" />
               <div className="navbar-brand">
                 <img src="/assets/Logo.png" />
                 <img src="/assets/Logoo.png" />
               </div>
-              <div className="navbar-right-spacer" />
-              <div className="navbar-buttons">
-                <Link to="/CurrentlyServicing"><Button variant="outline-light">Servicing</Button></Link>
-                <Link to="/AllServices"><Button variant="outline-light">Products</Button></Link>
+              <div className="navbar-links">
+                <a><Link to="/">Home</Link></a>
+                <a><Link to="/About">About</Link></a>
+                <a><Link to="/CurrentlyServicing">Servicing</Link></a>
+                <a><Link to="/AllServices">Products</Link></a>
+              </div>
+              <div className="Hamburger">
+                <div className="Line"></div>
+                <div className="Line"></div>
+                <div className="Line"></div>
               </div>
             </div>
         )
