@@ -6,6 +6,11 @@ $primaryOrangeColor: #ff6e40;
 $lightOragneColor: #ffa06d;
 $darkOrangeColor: #c53d13;
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .overlay{
   position: absolute;
   top: 0;
