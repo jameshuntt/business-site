@@ -34,6 +34,11 @@
     color: white;
     text-decoration:none
 }
+.navbar-links-open a{
+    font-size: 18px;
+    color: white;
+    text-decoration:none
+}
 .navbar-links a :hover{
     color: rgba(255, 255, 255, 0.582);
 }
@@ -44,15 +49,64 @@ img {
 }
 
 @media screen and (max-width: 858px) {
-  
+    .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+    .navbar-container{
+        position: relative;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+    .hamburger-open{
+        position: fixed;
+        cursor: pointer;
+        right: 3%;
+        top:  3%;
+        
+        z-index: 2;
+    }
     .navbar-links {
         position: fixed;
         background: rgb(50, 45, 45); 
         height: 100vh;
         width: 100%;
         flex-direction: column;
-
+        clip-path: circle(0px at 90% -20%);
+        -webkit-clip-path: circle(0px at 90% -20%);
+        
     }
+    .home-element{
+        padding-top: 0px;
+        margin-top: 0px;
+        height: 100vh;
+    }
+    .navbar-links-open{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        position: fixed;
+        background: rgb(50, 45, 45); 
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(5000px at 90% -20%);
+        -webkit-clip-path: circle(5000px at 90% -20%);
+        html, body {
+            max-height: 100vh;
+            overflow-y: hidden;
+        }
+    }
+    
 }
 
 //.navbar-brand {
