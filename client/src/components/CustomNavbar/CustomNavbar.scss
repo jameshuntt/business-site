@@ -41,23 +41,25 @@ img {
     }
 }
 
-//.navbar-brand {
-//    position: absolute;
-//    width: 100%;
-//    left:0;
-//    top:0;
-//    margin:auto;
-//    padding:0;
-//}
+.burger-menu-icon {
+    height: 7vh;
+    width: 7vw;
+    display: none;
+}
 
-//.navbar-toggle {
-//    z-index:1;
-//}
+.spacer2 {
+    width: 70vw;
+    height: 9vh;
+    display: none;
+}
 
 @media (max-width: 739px) {
     .burger-menu-icon {
         display: flex;
         z-index: 5;
+    }
+    .spacer2 {
+        display: contents;
     }
     .navbar-links {
         display: none;

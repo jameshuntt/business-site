@@ -46,9 +46,8 @@ export default class JamesNavbar extends Component {
                 <Link to="/CurrentlyServicing"><Button variant="outline-light">Servicing</Button></Link>
                 <Link to="/AllServices"><Button variant="outline-light">Products</Button></Link>
               </div>
-                <drawerToggleButton className="burger-menu-icon" onClick={this.drawerToggleClickHandler} />
-                {/*<input className="burger-menu-icon" type="image" src="/assets/hamburger-menu-icon.jpg" alt="burger" onClick={this.drawerToggleClickHandler} />*/}
-                <div className="spacer2" />
+                {/*<drawerToggleButton className="burger-menu-icon" onClick={this.drawerToggleClickHandler} />*/}
+                <input className="burger-menu-icon" type="image" src="/assets/hamburger-menu-icon.jpg" alt="burger" onClick={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
             </div>
