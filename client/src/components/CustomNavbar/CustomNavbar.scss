@@ -8,26 +8,39 @@
     z-index: 4;
 }
 
-.navbar-left-spacer {
-    height: 9vh;
-    width: 10vw;
-}
+
 
 .navbar-brand {
     height: 9vh;
     width: 30vw;
+    align-items: center;
+    margin-right: auto;
+    
 }
 
-.navbar-right-spacer {
-    height: 9vh;
-    width: 10vw;
-}
 
-.navbar-buttons {
-    height: 8vh;
-    width: 25vw;
-    padding-top: 1vh;
+
+.navbar-links {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 3vw;
+}
+.navbar-links a {
+    font-size: 18px;
     color: white;
+    text-decoration:none
+}
+.navbar-links-open a{
+    font-size: 18px;
+    color: white;
+    text-decoration:none
+}
+.navbar-links a :hover{
+    color: rgba(255, 255, 255, 0.582);
 }
 
 img {
@@ -35,10 +48,59 @@ img {
     width: auto;
 }
 
-@media(max-width: 858px) {
-    .navbar-buttons {
-        display: none;
+@media screen and (max-width: 858px) {
+    .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
     }
+    .navbar-container{
+        position: relative;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+    .hamburger-open{
+        position: fixed;
+        cursor: pointer;
+        right: 3%;
+        top:  3%;
+        
+        z-index: 2;
+    }
+    .navbar-links {
+        display:none;
+        
+    }
+    .home-element{
+        padding-top: 0px;
+        margin-top: 0px;
+        height: 100vh;
+    }
+    .navbar-links-open{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        position: fixed;
+        background: rgb(50, 45, 45); 
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(5000px at 90% -20%);
+        -webkit-clip-path: circle(5000px at 90% -20%);
+        html, body {
+            max-height: 100vh;
+            overflow-y: hidden;
+        }
+    }
+    
 }
 
 //.navbar-brand {
