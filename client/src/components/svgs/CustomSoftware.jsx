@@ -10,7 +10,7 @@ function CustomSoftware() {
       version="1.1"
       viewBox="0 0 232 232"
       xmlSpace="preserve"
-      width="8vw"
+      width="18vh"
     >
       <path d="M0 20v192h232V20H0zm224 184H8V60h216v144zm0-152H8V28h216v24z" />
       <circle cx="20" cy="40" r="8" />
