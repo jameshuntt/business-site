@@ -48,16 +48,16 @@ export default class ServicesHome extends Component {
                     </Row>
 
                     <Row className="services-row">
-                        <Col>
+                        <Col >
                             <p>
                                 Utilizing the most up to date technologies, we have all of the tools
                                 necessary to meet all of your web development needs.
                             </p>
                         </Col>
-                        <Col>
+                        <Col >
                             <h4 className="services-label">Web Development</h4>
                         </Col>
-                        <Col>
+                        <Col >
                             <Link to="/WebDevelopment"><WebDev /></Link>
                         </Col>
                     </Row>
