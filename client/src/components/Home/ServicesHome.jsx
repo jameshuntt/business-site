@@ -34,9 +34,9 @@ export default class ServicesHome extends Component {
                         </Col>
                         <Col md={12} lg={4}>
                             <p>
-                                With the options of self maintanence and maintanence through us,
-                                we can post your websites on the internet. We pride ourselves in
-                                having 99% uptime guaranteed.                                
+                                With the options of self maintanence or professional maintanence through us,
+                                we can host your websites on the internet. We pride ourselves in
+                                our 99% uptime guarantee.                                
                             </p>
                         </Col>
                     </Row>
@@ -57,7 +57,7 @@ export default class ServicesHome extends Component {
                         <Col md={12,{order:1}} lg={4}>
                             <p>
                                 Utilizing the most up to date technologies, we have all of the tools
-                                necessary to meet all of your web development needs.
+                                necessary to meet all of your development needs, and ensure your software is top of the line.
                             </p>
                         </Col>
                         
@@ -100,8 +100,8 @@ export default class ServicesHome extends Component {
                         </Col>
                         <Col md={12,{order:1}} lg={4}>
                             <p>
-                                Utilizing NativeScripting languages we are versed in professional
-                                mobile phone applications supporting all availeble operating systems.
+                                Utilizing Native Scripting languages we are well versed in professional
+                                mobile phone applications supporting all available operating systems, and mobile platforms.
                             </p>
                         </Col>
                         
