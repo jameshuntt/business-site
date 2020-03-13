@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Image } from 'react-bootstrap';
 import Security from './Security';
+import Footer from '../Footer/Footer';
 import ServicesHome from './ServicesHome';
 import Technologies from './Technologies';
 import { Link } from 'react-router-dom';
@@ -69,10 +70,9 @@ export default class Home extends Component {
                 </div>
                 <div className="home-services">
                     <ServicesHome />
-
                     <Technologies />
-            
                     <Security />
+                    <Footer />
                 </div>
             </div>
         )

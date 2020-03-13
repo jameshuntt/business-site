@@ -7,7 +7,22 @@ $lightOragneColor: #ffa06d;
 $darkOrangeColor: #c53d13;
 
 .footer {
+    position: relative;
     background-color: rgb(33, 33, 33);
     color: white;
-    height: 40vh;
+    height:50%;
 }
+
+.footer-contact , .footer-sitemap , .footer-social{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+h3{
+    padding-bottom: 2vh;
+}
+
+h5{
+    text-align: left;
+}
+

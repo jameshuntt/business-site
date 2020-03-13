@@ -8,24 +8,21 @@ export default class Security extends Component {
                 <Container className="security-container">
                     <Row>
                         <Col>
-                            <h2>Security</h2>
+                            <h2 className = "security-home-heading">Security</h2>
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col md={12} lg={6} className="security-content">
                             <img style={{height: '20vh'}} src="/assets/SSL.png" />
                             <h4>SSL</h4>
-                            <p>security shit</p>
+                            <p className="security-text">SSL makes sure all you and your user's sensitive information
+                                 is encrypted, this makes it impossible for anyone but the 
+                                 intended recipient to access the information.</p>
                         </Col>
-                        <Col>
+                        <Col md={12} lg={6} className="security-content">
                             <img style={{height: '20vh'}} src="/assets/bcrypt-logo.jpg" />
-                            <h4>Hashing</h4>
-                            <p>security shit</p>
-                        </Col>
-                        <Col>
-                            <img src="" />
-                            <h4>Booby Traps</h4>
-                            <p>security shit</p>
+                            <h4> Password Hashing</h4>
+                            <p className="security-text">Bcrypt is a password hashing fuction that helps us keep  you and all of your user's passwords safe.</p>
                         </Col>
                     </Row>
                 </Container>

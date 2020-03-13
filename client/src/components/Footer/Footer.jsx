@@ -15,17 +15,27 @@ export default class Footer extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
-                                <h3>WebAmbrosia LLC</h3>
+                            <Col  sm ={12} md={6} lg={4}  className="footer-contact">
+                                <h3>Contact</h3>
+                                <h5>WebAmbrosia LLC</h5>
                                 <h5>518-284-0735</h5>
                                 <h5> WebAmbrosia00@gmail.com</h5>
                             </Col>
-                            <Col>
-                                <h5>Site map</h5>
-                                <Link to="/Services"><Button>Services</Button></Link>
+                            <Col sm ={12} md={6} lg={4} className="footer-sitemap">
+                                <h3>Site Map</h3>
+                                <Link to="/">Home</Link>
+                                <br/>
+                                <Link to="/About">About</Link>
+                                <br/>
+                                <Link to="/CurrentlyServicing">Servicing</Link>
+                                <br/>
+                                <Link to="/AllServices">Products</Link>
+                                <br/>
+                                <Link to="/Contact">Contact</Link>
                             </Col>
-                            <Col>
-                            
+                            <Col sm ={12} md={12} lg={4} className="footer-social">
+                                <h3>Follow Us On</h3>
+
                             </Col>
                         </Row>
                         <Row>
