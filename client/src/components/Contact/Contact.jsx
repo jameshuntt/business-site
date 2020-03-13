@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
 import axios from 'axios';
 import './Contact.scss'
 
@@ -171,6 +172,7 @@ export default class Contact extends Component {
                         </Col>
                     </Row>
                 </Container>
+                <Footer/>
             </div>
         )
     }

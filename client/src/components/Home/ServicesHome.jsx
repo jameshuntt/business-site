@@ -27,7 +27,7 @@ export default class ServicesHome extends Component {
 
                     <Row className="top-services-row">
                         <Col md={12} lg={4}>
-                            <Link to="/Hosting"><Hosting /></Link>
+                            <Hosting />
                         </Col>
                         <Col md={12} lg={4}>
                             <h4 className="services-label">Hosting</h4>
@@ -49,7 +49,7 @@ export default class ServicesHome extends Component {
 
                     <Row className="services-row">
                         <Col md={12,{order:3}} lg={4}>
-                            <Link to="/WebDevelopment"><WebDev /></Link>
+                            <WebDev />
                         </Col>
                         <Col md={12,{order:2}} lg={4}>
                             <h4 className="services-label">Web Development</h4>
@@ -71,7 +71,7 @@ export default class ServicesHome extends Component {
 
                     <Row className="services-row">
                         <Col md={12} lg={4}>
-                            <Link to="/WebMaintanence"><Maintanence /></Link>
+                            <Maintanence />
                         </Col>
                         <Col md={12} lg={4}>
                             <h4 className="services-label">Web Maintanence</h4>
@@ -93,7 +93,7 @@ export default class ServicesHome extends Component {
 
                     <Row className="services-row">
                         <Col md={12,{order:3}} lg={4}>
-                            <Link to="/AppDevelopment"><AppDev /></Link>
+                            <AppDev />
                         </Col>
                         <Col md={12,{order:2}} lg={4}>
                             <h4 className="services-label">App Development</h4>
@@ -115,7 +115,7 @@ export default class ServicesHome extends Component {
 
                     <Row className="services-row">
                         <Col md={12} lg={4}>
-                            <Link to="/CustomSoftware"><CustomSoftware /></Link>
+                            <CustomSoftware />
                         </Col>
                         <Col md={12} lg={4}>
                             <h4 className="services-label">Custom Software</h4>

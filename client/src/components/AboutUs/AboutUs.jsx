@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar';
+import Footer from '../Footer/Footer';
 import './AboutUs.scss';
 
 export default class AboutUs extends Component {
@@ -34,6 +35,7 @@ export default class AboutUs extends Component {
                     </div>
                     <div className="vertical-founders-spacer" />
                 </div>
+                <Footer/>
             </div>
         )
     }

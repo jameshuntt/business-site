@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar';
+import Footer from '../Footer/Footer';
 import './CurrentlyServicing.scss';
 
 export default class CurrentlyServicing extends Component {
@@ -11,7 +12,9 @@ export default class CurrentlyServicing extends Component {
                         Currently servicing
                     </h1>
                     <Sidebar />
+                    
                 </div>
+                <Footer/>
             </div>
         )
     }

@@ -4,6 +4,7 @@ import './Services.scss';
 import { Container, Col, Row, Button } from 'react-bootstrap';
 import WebDevelopmentContact from './WebDevelopmentContact';
 import Hosting from '../svgs/Hosting';
+import Footer from '../Footer/Footer';
 import CustomSoftware from '../svgs/CustomSoftware';
 import WebDev from '../svgs/WebDev';
 import AppDev from '../svgs/AppDev';
@@ -85,7 +86,11 @@ export default class Services extends Component {
                         />
                         : null
                     }
+                    
                 </Container>
+                <div>
+                <Footer/>
+                </div>
             </div>
         )
     }
