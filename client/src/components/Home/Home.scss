@@ -24,7 +24,7 @@ html, body {
 .Particles{
     background-color: #002f6c;
     height: 100vh;
-    top: -9vh;
+    top: -15vh;
     position: relative;
 
 }
@@ -80,9 +80,17 @@ html, body {
 @media(max-width:768px){
     .Logo{
         width:10%;
+        top: -103vh
     }
     .Logoo{
         width:30%;
+        top: -102vh;
+    }
+    .home-top-text{
+        top: -123vh;
+    }
+    .contact-Button-Home{
+        top: -123vh;
     }
 
 }
@@ -90,7 +98,7 @@ html, body {
 .home-element {
     height: 91vh;
     width: 100vw;
-    padding-top: 9vh;
+    padding-top: 15vh;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -111,9 +119,10 @@ html, body {
 }
 
 .home-services {
-    height: 195vh;
+    height: 100%;
     width: 100vw;
-    padding-top: 9vh;
+    padding-top:15vh;
+    
 }
 
 @media(max-width: 975px) {
@@ -132,9 +141,13 @@ html, body {
 
 @media(max-width: 770px) {
     .home-services {
-        height: 240vh;
+        height: 100%;
     }
-    .home-technologies {
-        height: 140vh;
+ 
+}
+
+@media(max-width:446px){
+    .home-top-text{
+        font-size: 1.1rem;
     }
 }

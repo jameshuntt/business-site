@@ -69,11 +69,9 @@ export default class Home extends Component {
                 </div>
                 <div className="home-services">
                     <ServicesHome />
-                </div>
-                <div className="home-technologies">
+
                     <Technologies />
-                </div>
-                <div className="home-element">
+            
                     <Security />
                 </div>
             </div>

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
-
+import './Security.scss'
 export default class Security extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className="security-container">
                     <Row>
                         <Col>
                             <h2>Security</h2>
