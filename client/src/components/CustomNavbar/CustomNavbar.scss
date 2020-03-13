@@ -56,7 +56,7 @@ img {
         margin: 5px;
     }
     .navbar-container{
-        position: relative;
+        position: fixed;
     }
     .hamburger{
         position: absolute;
@@ -97,7 +97,7 @@ img {
         -webkit-clip-path: circle(5000px at 90% -20%);
         html, body {
             max-height: 100vh;
-            overflow-y: hidden;
+            overflow: hidden;
         }
     }
     

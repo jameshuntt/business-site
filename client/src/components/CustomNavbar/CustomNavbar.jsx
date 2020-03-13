@@ -3,10 +3,10 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.scss';
 
-export default class JamesNavbar extends Component {
-   
+export default class CustomNavbar extends Component {
+
   state = {
-    isHamburgerOpen: false,
+    isHamburgerOpen: true
   }
    
   render() {
@@ -15,14 +15,16 @@ export default class JamesNavbar extends Component {
         return (
             <div className="navbar-container">
               <div className="navbar-brand">
+              <Link to="/" >
                 <img src="/assets/Logo.png" />
                 <img src="/assets/Logoo.png" />
+                </Link>
               </div>
               <div className={ isOpen ? "navbar-links" : "navbar-links-open" }>
-                <a onClick={ () => this.setState({isOpen: false})}><Link to="/" >Home</Link></a>
-                <a><Link to="/About">About</Link></a>
-                <a><Link to="/CurrentlyServicing">Servicing</Link></a>
-                <a><Link to="/AllServices">Products</Link></a>
+                <a onClick={ () => this.setState({isHamburgerOpen: true})}><Link to="/" >Home</Link></a>
+                <a onClick={ () => this.setState({isHamburgerOpen: true})}><Link to="/About">About</Link></a>
+                <a onClick={ () => this.setState({isHamburgerOpen: true})}><Link to="/CurrentlyServicing">Servicing</Link></a>
+                <a onClick={ () => this.setState({isHamburgerOpen: true})}><Link to="/AllServices">Products</Link></a>
               </div>
               <div className={ isOpen ? "hamburger" : "hamburger-open"} onClick={ () => this.setState({isHamburgerOpen: !isOpen})}>
                 <div className="line"></div>
