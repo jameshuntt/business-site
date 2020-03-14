@@ -1,37 +1,42 @@
 .about-main-container {
     padding-top: 9vh;
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .about-sub-container {
     height: 91vh;
     width: 100vw;
-    display: flex;
-    flex-direction: row;
+ 
 }
 
-.about-sub-container-div-one {
-    display: flex;
-    flex-direction: column;
+.jumbo{
+    height: 83vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
 }
 
-.about-sub-container-div-two {
-    display: flex;
-    flex-direction: column;
-}
 
-.about-sub-container-div-three {
-    display: flex;
-    flex-direction: column;
-}
-
-.founders {
-    display: flex;
-    flex-direction: row;
-}
 
 .vertical-founders-spacer {
     height: 91vh;
     width: 5vw;
+}
+.about-jumbo-image{
+    height: 83vh;
+    width: 100vw;
+    z-index: 0;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    overflow: hidden;
+}
+.about-jumbo-text{
+    position: absolute;;
+    color:white;
+    padding-left:25vw;
+    padding-right:25vw;
+    margin-top:-60vh;
+    text-align: center;
+    z-index: 1;
+    
 }

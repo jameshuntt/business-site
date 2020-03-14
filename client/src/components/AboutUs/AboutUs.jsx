@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Image} from 'react-bootstrap';
 import Sidebar from './Sidebar';
 import Footer from '../Footer/Footer';
 import './AboutUs.scss';
@@ -8,12 +9,17 @@ export default class AboutUs extends Component {
         return (
             <div className="about-main-container">
                 <div className="about-sub-container">
-                    <div className="about-sub-container-div-one">
-                        <h3>
-                            Fresh out of college our team of devalopers is equipped with the
-                            current technologies to meet all of your development needs.
-                        </h3>
-                        <p>shit</p>
+                    <div className="jumbo">
+                    <Image className="about-jumbo-image" src="assets/code.jpg"/>
+                        <div className="about-jumbo-text">
+                            <h1>About Us</h1>
+                        
+                            <h3>
+                                Fresh out of college our team of devalopers is equipped with the
+                                current technologies to meet all of your development needs.
+                            </h3>
+                            <p>shit</p>
+                        </div>
                     </div>
                     <div className="about-sub-container-div-two">
                         <p>
@@ -27,6 +33,8 @@ export default class AboutUs extends Component {
                         <h1>Scroll down to view the team</h1>
                     </div>
                 </div>
+               
+                
                 <div className="founders" style={{ display: 'flex', flexDirection: 'row' }}>
                     <div className="vertical-founders-spacer" />
                     <div className="founders-sub-container">
