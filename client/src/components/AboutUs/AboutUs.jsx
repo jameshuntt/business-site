@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import {Image} from 'react-bootstrap';
+import {Image, Col, Row, Container} from 'react-bootstrap';
 import Sidebar from './Sidebar';
+import Chase from './Founders/Chase';
+import James from './Founders/James';
+import Elijah from './Founders/Elijah';
 import Footer from '../Footer/Footer';
 import './AboutUs.scss';
 
@@ -38,9 +41,17 @@ export default class AboutUs extends Component {
                 <div className="founders" style={{ display: 'flex', flexDirection: 'row' }}>
                     <div className="vertical-founders-spacer" />
                     <div className="founders-sub-container">
-                        <Sidebar />
+                        
                         <div className="horizontal-founders-spacer" />
-                    </div>
+                        <Container fluid>
+                            <Row>
+
+                                <Col><Chase/></Col>
+                                <Col><James/></Col>
+                                <Col><Elijah/></Col>
+                            </Row>
+                        </Container>
+                        </div>
                     <div className="vertical-founders-spacer" />
                 </div>
                 <Footer/>

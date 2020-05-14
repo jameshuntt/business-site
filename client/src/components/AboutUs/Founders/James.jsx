@@ -1,32 +1,24 @@
 import React, { Component } from 'react';
-import { UserCard } from 'react-ui-cards';
+import {Card} from 'react-bootstrap';
 
-const founders = {
-    display: 'flex',
-    flexDirection: 'column',
-    height: '50vh'
-}
 
 export default class James extends Component {
     render() {
         return (
-            <div style={founders}>
-                <div style={{ display: 'flex', flexDirection: 'row'}}>
-                    <p>
-                        James is the wild card in the bunch. In every team you need someone to spice things up.
-                        With the goal of attending Medical School, nobody really knows why he pursues code with
-                        such passion and perseverance. The only logical explanation is that he is not logical by
-                        any means. James is just a young adult with incredible ADHD.
-                    </p>
-                    <UserCard float name="James" positionName="Co-owner and Developer" float></UserCard>
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'row'}}>
-                    <h2>James favorite languages include</h2>
-                    <img style={{ height: '10vh'}} src="/assets/React.svg" />
-                    <img style={{ height: '10vh'}} src="/assets/Express.svg" />
-                    <img style={{ height: '10vh'}} src="/assets/Node.svg" />
-                </div>
-            </div>
+            <Card>
+            <Card.Body>
+                <Card.Img variant="top" src="./assets/user-empty-avatar.png"/>
+                <Card.Title>James</Card.Title>
+                <Card.Subtitle>Web Developer</Card.Subtitle>
+                <Card.Text>
+                    Specializing in front end development, James is the leader in styling your projects.
+                    A typical Renessaince man. Need your car fixed? Need help with hardware? Need your
+                    Rubik's Cube solved? How about electrical engineering? Whatever the task, James is a
+                    natural leader with a plethora of knowledge and skills. James is the perfect candidate
+                    for an all around 
+                </Card.Text>
+            </Card.Body>
+        </Card>
         )
     }
 }
