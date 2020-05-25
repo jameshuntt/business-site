@@ -5,6 +5,7 @@ import Chase from './Founders/Chase';
 import James from './Founders/James';
 import Elijah from './Founders/Elijah';
 import Footer from '../Footer/Footer';
+import Cards from './Founders/CardCon';
 import './AboutUs.scss';
 
 export default class AboutUs extends Component {
@@ -18,7 +19,7 @@ export default class AboutUs extends Component {
                             <h1>About Us</h1>
                         
                             <h3>
-                                Fresh out of college our team of devalopers is equipped with the
+                                Fresh out of college our team of developers is equipped with the
                                 current technologies to meet all of your development needs.
                             </h3>
                             <p>shit</p>
@@ -39,20 +40,13 @@ export default class AboutUs extends Component {
                
                 
                 <div className="founders" style={{ display: 'flex', flexDirection: 'row' }}>
-                    <div className="vertical-founders-spacer" />
-                    <div className="founders-sub-container">
+                    
                         
-                        <div className="horizontal-founders-spacer" />
-                        <Container fluid>
-                            <Row>
-
-                                <Col><Chase/></Col>
-                                <Col><James/></Col>
-                                <Col><Elijah/></Col>
-                            </Row>
-                        </Container>
-                        </div>
-                    <div className="vertical-founders-spacer" />
+                    <div className="container-fluid d-flex justify-content-center mx-auto">
+                            <Cards/>
+                    
+                    </div>
+                    
                 </div>
                 <Footer/>
             </div>
