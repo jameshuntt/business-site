@@ -9,8 +9,7 @@ const Card = props=>{
              <div className="card-body text-dark">
                  <h3 className="card-title">{props.title}</h3>
                  <h5 className="card-subtitle">{props.subtitle}</h5>
-                 <p className="card-text text-secondary">{props.text}</p>
-             <a href="#" className="btn btn-outline-success"> Go Anywhere </a>    
+                 <p className="card-text text-secondary">{props.text}</p>    
              </div>
         </div>
     );
