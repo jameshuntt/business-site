@@ -38,16 +38,13 @@ export default class AboutUs extends Component {
                     </div>
                 </div>
                
-                
-                <div className="founders" style={{ display: 'flex', flexDirection: 'row' }}>
-                    
                         
-                    <div className="container-fluid d-flex justify-content-center mx-auto">
+                    <div className="founders-cards container-fluid d-flex justify-content-center mx-auto">
                             <Cards/>
                     
                     </div>
                     
-                </div>
+          
                 <Footer/>
             </div>
         )

@@ -4,33 +4,47 @@ body{
 
 .card{
     width:20rem;
+    margin-top: 20px;
+    height:30rem;
+    overflow: hidden;
+    transform:scale(1);
 }
 
 .card:hover{
     box-shadow:5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+    transform:scale(1.05);
 }
 
 .card-body{
-    padding: 3rem 0 !important;
+    padding: 2rem 0 !important;
 }
 
 .card-text{
     font-size:0.9rem;
-    padding-top:6rem;
+    padding-top:1rem;
 }
 
 .container-fluid .row{
     padding-top:6rem;
+    
 }
-
+.container-fluid{
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
 .overflow{
     overflow:hidden;
 }
 .card-img-top{
-    
+    padding-top: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    height: 100%;
+    width: auto;
     transform:scale(1);
 }
 
 .card-img-top:hover{
-    transform:scale(1.8);
+    transform:scale(1.2);
 }
+
